@@ -1,12 +1,9 @@
-import { useHover } from './useHover';
+import { useViewportSize } from './useViewportSize';
 
 function Demo() {
-  const { hovered, ref } = useHover();
 
   return (
-    <div ref={ref}>
-      {hovered ? 'На меня навели мышку' : 'Наведи мышкой на меня'}
-    </div>
+   
   );
 }
 

@@ -1,10 +1,11 @@
 import { useWindowScroll } from './useWindowScroll';
+import './App.css';
 
 function Demo() {
   const [scroll, scrollTo] = useWindowScroll();
 
   return (
-    <div>
+    <div className="block">
       <p>
         Scroll position x: {scroll.x}, y: {scroll.y}
       </p>
